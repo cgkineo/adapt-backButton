@@ -1,8 +1,8 @@
 {
   "name": "adapt-backButton",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "framework": "^2.0.0",
-  "homepage": "https://github.com/cgkine/adapt-backButton",
+  "homepage": "https://github.com/cgkineo/adapt-backButton",
   "displayName" : "Back Button",
   "extension" : "backButton",
   "description": "Allows hide or redirect of back button.",
