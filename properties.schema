@@ -1,0 +1,115 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object",
+          "properties": {
+            "_backButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Back Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Enable Back Button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_backButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Enable Back Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Enable Back Button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                },
+                "_hideBackButton": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Hide Back Button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                },
+                "_redirectToId": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "title": "Redirect Back Button To Id",
+                  "inputType": "Text",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type": "object",
+          "properties": {
+            "_backButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Enable Back Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Enable Back Button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                },
+                "_hideBackButton": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Hide Back Button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                },
+                "_redirectToId": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "title": "Redirect Back Button To Id",
+                  "inputType": "Text",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}
