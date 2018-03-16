@@ -35,7 +35,7 @@ define([
         _disabled: function() {
             this._$html.removeClass("hide-back-button");
             if (this._dataEvent) {
-                $(".navigation-back-button").attr("data-event", this._dataEvent)
+                $(".navigation-back-button").attr("data-event", this._dataEvent);
                 this._dataEvent = null;
             }
         },
