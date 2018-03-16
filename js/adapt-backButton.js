@@ -2,7 +2,7 @@ define([
     'core/js/adapt'
 ], function(Adapt) {
 
-    var HideBackBhutton = Backbone.Controller.extend({
+    var BackBhutton = Backbone.Controller.extend({
 
         _$html: null,
 
@@ -61,11 +61,10 @@ define([
                     Backbone.history.navigate("#/id/"+model.get("_id"), { trigger: true, relpace: false });
                     break;
             }
-
         }
 
     });
 
-    return new HideBackBhutton();
+    return new BackBhutton();
 
 });
