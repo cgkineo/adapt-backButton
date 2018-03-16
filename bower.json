@@ -2,7 +2,7 @@
     "name": "adapt-backButton",
     "repository": "git://github.com/cgkineo/adapt-backButton.git",
     "framework": ">=2.0.0",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "homepage": "https://github.com/cgkineo/adapt-backButton",
     "displayName": "Back Button",
     "extension": "backButton",

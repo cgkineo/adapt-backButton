@@ -1,6 +1,6 @@
 // config.json
 "_backButton": {
-    "_isEnabled": false
+    "_isEnabled": true
 }
 
 // course.json
