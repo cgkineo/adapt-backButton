@@ -2,7 +2,7 @@ define([
     'core/js/adapt'
 ], function(Adapt) {
 
-    var BackBhutton = Backbone.Controller.extend({
+    var BackButton = Backbone.Controller.extend({
 
         _$html: null,
 
@@ -65,6 +65,6 @@ define([
 
     });
 
-    return new BackBhutton();
+    return new BackButton();
 
 });
