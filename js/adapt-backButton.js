@@ -17,7 +17,7 @@ define([
             this.listenTo(Adapt, {
                 'remove': this._onRemove,
                 'router:menu router:page': this._onRouterEvent,
-                'navigation:redirectedButton': this._redirected
+                'navigation:redirectedBackButton': this._redirected
             });
         },
 
@@ -44,7 +44,7 @@ define([
             this._$html.toggleClass("hide-back-button", !!this._config._hideBackButton);
             if (this._config._redirectToId) {
                 this._dataEvent = $(".navigation-back-button").attr("data-event");
-                $(".navigation-back-button").attr("data-event", "redirectedButton");
+                $(".navigation-back-button").attr("data-event", "redirectedBackButton");
             }
         },
 
