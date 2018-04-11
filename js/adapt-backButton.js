@@ -43,8 +43,12 @@ define([
         _enabled: function() {
             this._$html.toggleClass("hide-back-button", !!this._config._hideBackButton);
             if (this._config._redirectToId) {
-                this._dataEvent = $(".navigation-back-button").attr("data-event");
-                $(".navigation-back-button").attr("data-event", "redirectedBackButton");
+                var $backButton = $(".navigation-back-button");
+                this._dataEvent = $backButton.attr("data-event");
+                $backButton.attr("data-event", "redirectedBackButton");
+                //navigationView hides the back button when we're at course level,
+                //which is no use if we want to redirect it - so unhide it again.
+                $backButton.removeClass('display-none');
             }
         },
 
