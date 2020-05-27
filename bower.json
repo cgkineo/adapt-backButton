@@ -7,6 +7,7 @@
     "framework": ">=2.0.18",
     "version": "0.1.1",
     "homepage": "https://github.com/cgkineo/adapt-backButton",
+    "issues": "https://github.com/cgkineo/adapt-backButton/issues/new",
     "displayName": "Back Button",
     "extension": "backButton",
     "description": "Allows hide or redirect of back button.",
@@ -15,6 +16,6 @@
         "adapt-plugin",
         "adapt-extension"
     ],
-    "license": "GPLv3",
+    "license": "GPL-3.0",
     "targetAttribute": "_backButton"
 }
